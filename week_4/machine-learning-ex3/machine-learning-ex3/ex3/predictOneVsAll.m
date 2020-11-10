@@ -29,8 +29,8 @@ X = [ones(m, 1) X];
 %       are in rows, then, you can use max(A, [], 2) to obtain the max 
 %       for each row.
 %       
-
-
+pred_prob_mat = X*all_theta';
+[pred p] = max(pred_prob_mat, [], 2); % to what probability has each training row predicted
 
 
 
