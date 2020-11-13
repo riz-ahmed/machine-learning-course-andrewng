@@ -10,3 +10,4 @@ All algorithms are developed using Octave 5.2.0 for prototyping learning algorit
 ## Note
 
 * The detailed explaination of writing the gradient descent algorithms both for regularized and un-regularized forms are given in file _*ex3.pdf*_
+* To distrubute a variable between two limits, such that the variable lies between these two limits, use this relation theta = rand(5,3) * (2 * epsilon) - epsilon. Here theta is distrubuted between -epsilon to +epsilon
